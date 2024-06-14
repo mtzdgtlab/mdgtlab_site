@@ -216,7 +216,7 @@
 	========================================*/
   
     var progressPath = document.querySelector(".backtotop-wrap path");
-    var pathLength = progressPath.getTotalLength();
+	var pathLength = progressPath ? progressPath.getTotalLength() : 0;
     progressPath.style.transition = progressPath.style.WebkitTransition =
         "none";
     progressPath.style.strokeDasharray = pathLength + " " + pathLength;
