@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="1.3" y=".9" width="47.3" height="48.2"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <path class="cls-2" d="M47.7,9.5c-3.7,6.4-9.3,17.3-10.8,28-.5,3.8-.5,7.2,1.6,9.5,1.3,1.4,4,2.9,6.7,1.8,2.1-.9,3.4-3.2,3.5-6.1,0,0,0,0,0,0,0-10.9,0-21.8,0-32.7,0-.3-.2-.6-.5-.6,0,0,0,0,0,0-.2,0-.4.2-.4.2"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-.1" y1="50.7" x2=".1" y2="50.7" gradientTransform="translate(40.7 9291.6) scale(182.8 -182.8)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0c6ec1"/>
+      <stop offset=".6" stop-color="#013697"/>
+      <stop offset="1" stop-color="#001f7a"/>
+    </linearGradient>
+    <clipPath id="clippath-2">
+      <path class="cls-2" d="M39.5.9c-.6,0-1.3.1-1.8.4-1.3.6-1.8,1.9-2.6,3.7,0,0-5,12.8-8.8,19.3-.3.6-1,1.6-1.9,1.7-.8,0-1.5-.8-1.8-1.2-2.6-5.4-5.2-10.9-7.7-16.3-.2-.6-.6-1.3-1.2-1.8-2.8-2.6-9.4-1.1-11.5,2.4-.7,1.1-.8,2.3-.8,2.6,0,10,0,20,0,30.1,0,.3,0,.5,0,.8h0c0,3.7,2.7,6.6,5.4,6.7,0,0,.2,0,.2,0h0c3,0,6.3-3.3,5.9-7.7,0-4.9.1-9.8.2-14.8,1.8,4.9,3.6,9.8,5.4,14.7,1.3,2.4,3.8,3.9,6.6,3.9s5.3-1.5,6.6-3.9c7.1-16.3,12.2-28.5,13.9-32.8.2-.5.7-1.9.2-3.4-.8-2.6-3.7-4.2-6.1-4.2h0Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-.1" y1="49.8" x2=".1" y2="49.8" gradientTransform="translate(27.8 10364.5) scale(207.6 -207.6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0c6ec1"/>
+      <stop offset=".3" stop-color="#0c73c6"/>
+      <stop offset=".6" stop-color="#013697"/>
+      <stop offset="1" stop-color="#001f7a"/>
+    </linearGradient>
+  </defs>
+  <g id="Artwork_3" data-name="Artwork 3">
+    <g class="cls-1">
+      <g class="cls-5">
+        <rect class="cls-3" x="21.3" y="19" width="42.3" height="20.9" transform="translate(4.4 64.5) rotate(-77.4)"/>
+      </g>
+      <g class="cls-6">
+        <rect class="cls-4" x="-8.4" y="-7.5" width="64.2" height="65.1" transform="translate(-10 17.7) rotate(-34.3)"/>
+      </g>
+    </g>
+  </g>
+</svg>
