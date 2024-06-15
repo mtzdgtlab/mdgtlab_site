@@ -210,39 +210,44 @@
 	Button scroll up js
 	========================================*/
   
-    var progressPath = document.querySelector(".backtotop-wrap path");
-	var pathLength = progressPath ? progressPath.getTotalLength() : 0;
-    progressPath.style.transition = progressPath.style.WebkitTransition =
-        "none";
-    progressPath.style.strokeDasharray = pathLength + " " + pathLength;
-    progressPath.style.strokeDashoffset = pathLength;
-    progressPath.getBoundingClientRect();
-    progressPath.style.transition = progressPath.style.WebkitTransition =
-        "stroke-dashoffset 10ms linear";
-    var updateProgress = function() {
-        var scroll = $(window).scrollTop();
-        var height = $(document).height() - $(window).height();
-        var progress = pathLength - (scroll * pathLength) / height;
-        progressPath.style.strokeDashoffset = progress;
-    };
-    updateProgress();
-    $(window).scroll(updateProgress);
-    var offset = 150;
-    var duration = 550;
-    jQuery(window).on("scroll", function() {
-        if (jQuery(this).scrollTop() > offset) {
-            jQuery(".backtotop-wrap").addClass("active-progress");
+    $(document).ready(function() {
+        var progressPath = document.querySelector(".backtotop-wrap path");
+        if (progressPath) {
+            var pathLength = progressPath.getTotalLength();
+            progressPath.style.transition = progressPath.style.WebkitTransition = "none";
+            progressPath.style.strokeDasharray = pathLength + " " + pathLength;
+            progressPath.style.strokeDashoffset = pathLength;
+            progressPath.getBoundingClientRect();
+            progressPath.style.transition = progressPath.style.WebkitTransition = "stroke-dashoffset 10ms linear";
+            var updateProgress = function() {
+                var scroll = $(window).scrollTop();
+                var height = $(document).height() - $(window).height();
+                var progress = pathLength - (scroll * pathLength) / height;
+                progressPath.style.strokeDashoffset = progress;
+            };
+            updateProgress();
+            $(window).scroll(updateProgress);
+            var offset = 150;
+            var duration = 550;
+            jQuery(window).on("scroll", function() {
+                if (jQuery(this).scrollTop() > offset) {
+                    jQuery(".backtotop-wrap").addClass("active-progress");
+                } else {
+                    jQuery(".backtotop-wrap").removeClass("active-progress");
+                }
+            });
+            jQuery(".backtotop-wrap").on("click", function(event) {
+                event.preventDefault();
+                jQuery("html, body").animate({
+                    scrollTop: 0
+                }, duration);
+                return false;
+            });
         } else {
-            jQuery(".backtotop-wrap").removeClass("active-progress");
+            console.log("The path element does not exist.");
         }
     });
-    jQuery(".backtotop-wrap").on("click", function(event) {
-        event.preventDefault();
-        jQuery("html, body").animate({
-            scrollTop: 0
-        }, duration);
-        return false;
-    });
+    
     
     /*======================================
 	One Page Scroll Js
@@ -749,7 +754,6 @@ pricingValues.each(function () {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Selecciona todos los elementos de filtro y las áreas de blog
     const filterItems = document.querySelectorAll('.project-filter li');
     const blogItems = document.querySelectorAll('.latest-blog__area .col-lg-4');
 
