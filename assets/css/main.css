@@ -16083,7 +16083,7 @@ only screen and (min-width:576px) and (max-width:767px),
   transform: translateY(-5%);
   background-repeat: no-repeat;
   background-position: top right;
-  background-image: url(../../assets/imgs/feature-3/top-shape-feature-1.png)
+  background-image: url(../../assets/imgs/feature-3/top-shape-feature-1.webp)
 }
 .feature-3 .feature-3-card:before {
   top: 0;

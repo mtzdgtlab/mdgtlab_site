@@ -5,12 +5,7 @@
 
     /*-----------------------------------------------------------------------------------
 
-        Template Name: Printing Service & Printing Template
-        Author: RRDevs
-        Support: https://support.rrdevs.net
-        Description: Printing Service & Printing Template.
-        Version: 1.0
-        Developer: Soukhin khan (https://github.com/Soukhinkhan)
+       
 
     -----------------------------------------------------------------------------------
 
