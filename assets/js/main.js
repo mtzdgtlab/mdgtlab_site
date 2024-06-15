@@ -5,7 +5,7 @@
 
     /*-----------------------------------------------------------------------------------
 
-       
+        
 
     -----------------------------------------------------------------------------------
 
@@ -210,43 +210,6 @@
 	Button scroll up js
 	========================================*/
   
-    $(document).ready(function() {
-        var progressPath = document.querySelector(".backtotop-wrap path");
-        if (progressPath) {
-            var pathLength = progressPath.getTotalLength();
-            progressPath.style.transition = progressPath.style.WebkitTransition = "none";
-            progressPath.style.strokeDasharray = pathLength + " " + pathLength;
-            progressPath.style.strokeDashoffset = pathLength;
-            progressPath.getBoundingClientRect();
-            progressPath.style.transition = progressPath.style.WebkitTransition = "stroke-dashoffset 10ms linear";
-            var updateProgress = function() {
-                var scroll = $(window).scrollTop();
-                var height = $(document).height() - $(window).height();
-                var progress = pathLength - (scroll * pathLength) / height;
-                progressPath.style.strokeDashoffset = progress;
-            };
-            updateProgress();
-            $(window).scroll(updateProgress);
-            var offset = 150;
-            var duration = 550;
-            jQuery(window).on("scroll", function() {
-                if (jQuery(this).scrollTop() > offset) {
-                    jQuery(".backtotop-wrap").addClass("active-progress");
-                } else {
-                    jQuery(".backtotop-wrap").removeClass("active-progress");
-                }
-            });
-            jQuery(".backtotop-wrap").on("click", function(event) {
-                event.preventDefault();
-                jQuery("html, body").animate({
-                    scrollTop: 0
-                }, duration);
-                return false;
-            });
-        } else {
-            console.log("The path element does not exist.");
-        }
-    });
     
     
     /*======================================
@@ -752,31 +715,6 @@ pricingValues.each(function () {
     pricingValue.html(newValue);
 });
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-    const filterItems = document.querySelectorAll('.project-filter li');
-    const blogItems = document.querySelectorAll('.latest-blog__area .col-lg-4');
-
-    filterItems.forEach(filterItem => {
-        filterItem.addEventListener('click', function() {
-            // Remover la clase 'current' de todos los filtros y agregarla al filtro seleccionado
-            filterItems.forEach(item => item.classList.remove('current'));
-            this.classList.add('current');
-
-            // Obtener el filtro seleccionado
-            const filterValue = this.getAttribute('data-filter');
-
-            // Mostrar u ocultar elementos según el filtro seleccionado
-            blogItems.forEach(blogItem => {
-                if (filterValue === '*' || blogItem.classList.contains(filterValue.substring(1))) {
-                    blogItem.style.display = 'block';
-                } else {
-                    blogItem.style.display = 'none';
-                }
-            });
-        });
-    });
-});
 
 
 // testimonial-up-slider

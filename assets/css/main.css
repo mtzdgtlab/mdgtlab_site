@@ -1335,6 +1335,16 @@ only screen and (min-width:576px) and (max-width:767px),
   mix-blend-mode: lighten;
   opacity: 10%
 }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
 .backtotop-wrap {
   position: fixed;
   bottom: 30px;
@@ -1352,19 +1362,19 @@ only screen and (min-width:576px) and (max-width:767px),
   transform: translateY(20px);
   -webkit-transition: all .4s linear;
   transition: all .4s linear;
-  background: var(--rr-theme-primary)
+  background: var(--rr-theme-primary);
 }
 @media (max-width:450px) {
   .backtotop-wrap {
-    bottom: 20px;
-    right: 20px
+      bottom: 20px;
+      right: 20px;
   }
 }
 .backtotop-wrap.active-progress {
   opacity: 1;
   visibility: visible;
   -webkit-transform: translateY(0);
-  transform: translateY(0)
+  transform: translateY(0);
 }
 .backtotop-wrap::before {
   width: 100%;
@@ -1382,7 +1392,7 @@ only screen and (min-width:576px) and (max-width:767px),
   transition: all .35s;
   background-color: var(--rr-heading-primary);
   z-index: -1;
-  content: ""
+  content: "";
 }
 .backtotop-wrap::after {
   position: absolute;
@@ -1399,10 +1409,10 @@ only screen and (min-width:576px) and (max-width:767px),
   display: block;
   z-index: 1;
   -webkit-transition: all .4s linear;
-  transition: all .4s linear
+  transition: all .4s linear;
 }
 .backtotop-wrap svg path {
-  fill: none
+  fill: none;
 }
 .backtotop-wrap svg.backtotop-circle path {
   stroke: #ccc;
@@ -1410,12 +1420,12 @@ only screen and (min-width:576px) and (max-width:767px),
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all .4s linear;
-  transition: all .4s linear
+  transition: all .4s linear;
 }
 .backtotop-wrap:hover::before {
   border-color: var(--rr-heading-primary);
   -webkit-transform: translate(0,0);
-  transform: translate(0,0)
+  transform: translate(0,0);
 }
 @-webkit-keyframes pulse {
   0% {
@@ -3017,9 +3027,10 @@ a.ui-button:active {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: .5s ease all;
-  transition: .5s ease all
+  -webkit-transition: 500ms ease all;
+  transition: 500ms ease all;
 }
+
 #popup-search-box .box-inner-wrap {
   position: relative;
   width: 100%;
@@ -4526,10 +4537,10 @@ only screen and (min-width:768px) and (max-width:991px) {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
+  justify-content: center;
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
   padding: 24.5px 0;
   gap: 10px 30px;
   border-top: var(--rr-border-white30)
