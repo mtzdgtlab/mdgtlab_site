@@ -4,6 +4,9 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 # Cargar los datos de Excel
 df = pd.read_excel("/Users/ismartinez/Sites/mdgt_finalsite/assets/db/products_mdgt.xlsx")
 
+# Imprime los nombres de las columnas para verificar
+print(df.columns)
+
 # Configurar Jinja2 para cargar la plantilla
 env = Environment(
     loader=FileSystemLoader(searchpath="./"),
@@ -28,7 +31,7 @@ for index, row in df.iterrows():
         continue
     
     # Asegúrate de que 'product_uses' corresponde a una columna en tu Excel.
-    product_uses = row.get('product_uses', None)  # None en caso de que falte 'product_uses'
+    product_uses = row.get('product_uses', 'N/A')  # None en caso de que falte 'product_uses'
     
     # Actualiza el diccionario de datos para la plantilla
     product_data = row.fillna('').to_dict()  # Reemplaza NaN con cadenas vacías
