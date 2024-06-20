@@ -18,8 +18,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>M Digital Lab - Marketing & Social Media Solutions</title>
-    <meta name="description" content="Explore premier services in social media management, design, video production, photography, and marketing print solutions. Elevate your brand with M Digital Lab today!">
+    <title>M Digital Lab - {{ name }}</title>
+    <meta name="description" content="{{ metad }}">
     <meta name="keywords" content="digital marketing, social media management, video production, graphic design, photography, marketing print services, brand development, creative solutions">
     <meta name="author" content="Isra Martinez">
 
@@ -32,7 +32,7 @@
         <!-- End Google Tag Manager -->
 
     <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/logo/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
@@ -42,15 +42,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>    
     <link rel="stylesheet" href="assets/css/fontawesome-pro.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets2/css/vendor/custom-font.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/custom-font.css">
+    <link rel="stylesheet" href="assets2/css/main.css">
 
     <!-- Additional CSS -->
-    <link rel="stylesheet" href="assets2/css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
     <link rel="stylesheet" href="assets2/css/vendor/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets2/css/vendor/animate.min.css">
-    <link rel="stylesheet" href="assets2/css/vendor/spacing.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/spacing.css">
     
     <!-- Meta Pixel Code -->
     <script>
@@ -73,7 +73,7 @@
 
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.mdgtlab.com/">
+    <link rel="canonical" href="https://www.mdgtlab.com/{{ page_title }}.html">
 </head>
 
 <body>
@@ -242,7 +242,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="header__right">
                         <div class="header__action d-flex align-items-center">
                             <div class="header__btn-wrap d-none d-sm-inline-flex">
-                                <a href="https://wa.me/18623105807" class="rr-btn">Order Now</a>
+                                <a href="https://wa.me/18623105807" class="rr-btn">Get a Quote</a>
                             </div>
                             <div class="header__hamburger ml-20 d-lg-none">
                                 <div class="sidebar__toggle">
@@ -264,8 +264,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- Header area end -->
 
-
-<!-- Body main wrapper start -->
+    <!-- Body main wrapper start -->
 <main>
 
     <div class="breadcrumb__area breadcrumb-space overflow-hidden banner-home-bg ">
@@ -286,12 +285,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-12">
                     <div class="breadcrumb__content text-center">
                         <div class="breadcrumb__title-wrapper mb-15 mb-sm-10 mb-xs-5">
-                            <h1 class="breadcrumb__title color-white wow fadeIn animated" data-wow-delay=".1s">{{ product_tittle }}</h1>
+                            <h1 class="breadcrumb__title color-white wow fadeIn animated" data-wow-delay=".1s">{{ productt }}</h1>
                         </div>
                         <div class="breadcrumb__menu wow fadeIn animated" data-wow-delay=".5s">
                             <nav>
                                 <ul>
-                                    <li><span>{{ category }}</span></li>
+                                    <li><span><a href="#">{{ category }}</a></span></li>
                                     <li class="active"><span>{{ subcategory }}</span></li>
                                 </ul>
                             </nav>
@@ -302,8 +301,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>
 
-
-
     <!-- service details area start -->
     <section class="section-space service-details__area">
         <div class="container">
@@ -311,63 +308,66 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-xl-8">
                     <div class="service-details-content">
                         <div class="service-details-content-thumb mb-30">
-                            <img src="{{ image_path1 }}" alt="{{ product_sectionalt }}" class="img-fluid">
+                             <img src="{{ img1 }}" alt="{{ secalt }}" class="img-fluid">
                         </div>
-
-                        <h4 class="service-details-content-title">Description</h4>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <div class="row">
-                            {% for paragraph in body_description.split('\n') %}
-                            <div class="paragraph">
-                                <p>{{ paragraph }}</p>
-                            </div>
-                            {% endfor %}
+                        <h4>Description</h4>
+                        {% for paragraph in description.split('\n') %}
+                        <div class="paragraph">
+                            <p>{{ paragraph }}</p>
                         </div>
-                        
-                        
-                        
-                        <!-- Ejemplo de cómo condicionar una sección en Jinja2 -->
-                        {% if size and quantity and price %}
-                        <!-- Sección del carrito que solo se muestra si size, quantity y price están presentes -->
-                        <section class="cart-area pt-120 pb-120">
-                            <div class="container container-small">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="table-content">
-                                            <table class="table">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Size</th>
-                                                        <th>Quantity</th>
-                                                        <th>Price</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>{{ size }}</td>
-                                                        <td>{{ quantity }}</td>
-                                                        <td>${{ price }}</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        {% endif %}
-                        <span></span>
-                        <span></span>
-                        <span></span>
-
-                        <div class="header__btn-wrap d-none d-sm-inline-flex">
-                            <a href="https://wa.me/18623105807" class="rr-btn">Order Now!</a>
-                        </div>
+                        {% endfor %}
                     </div>
-                    
+
+       
+    {% if variants %}
+    <!--cart start-->
+    <section class="cart-area pt-120 pb-120">
+        <div class="container container-small">
+            <div class="row">
+               <div class="col-12">
+                  <div class="table-content">
+                     <table class="table">
+                        <thead>
+                           <tr>
+                              <th class="product-remove"></th>
+                              <th class="cart-product-name">Size</th>
+                              <th class="product-quantity">Quantity</th>
+                              <th class="product-price"> Price</th>
+                           </tr>
+                        </thead>
+                    <tbody>
+                        {% for variant in variants %}
+                        <tr>
+                            <td class="product-remove"><a href="#">
+                                </a></td>
+                              <td class="product-thumbnail">
+                                    <div class="product-thumbnail__wrapper">
+                                        <div class="product-name">{{ variant.size }}</div>
+                                    </div>
+                                </td>
+
+                             <td class="product-price"><span class="amount amount-2">{{ variant.quantity }}</span></td>
+                              
+                              
+                              <td class="product-subtotal"><span class="amount">{{ variant.price }}</span></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                     </table>
+                     {% endif %}
+                  </div>
+               </div>
+            </div>
+         </div>
+    </section>
+    <!--cart end-->
+
+
+
+                <div class="header__btn-wrap d-none d-sm-inline-flex">
+                    <a href="https://wa.me/18623105807" class="rr-btn">Order Now!</a>
                 </div>
+                    </div>
                 <div class="col-xl-4">
                     <div class="service-details-right">
                         <div class="service-details-righ-widget">
@@ -427,9 +427,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <i class="fa-solid fa-plus"></i>
                                 </div>
                             </a>
-                            <img src="{{ img2 }}" alt="{{ product_sectionalt }}" class="img-fluid">
+                            <img src="{{ img2 }}" alt="{{ secalt }}">
                         </div>
-
+                    </div>
+                    <div class="content-area pt-70">
+                        <div class="faq">
+                            <div id="faq" class="accordion">
+                                <div class="card wow fadeInLeft animated" data-wow-delay=".2s">
+                                    <div class="card-header">
+                                        <button class="card-link" data-bs-toggle="collapse" data-bs-target="#faq-1">
+                                            Product Uses
+                                        </button>
+                                    </div>
+                                    <div id="faq-1" class="collapse" data-bs-parent="#faq">
+                                        <div class="card-body">
+                                            <p>{{ uses }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -437,67 +454,53 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </section>
     <!-- service details area end -->
 
-    
-
- <!-- Brand area start -->
- <section class="main-brand__area section-space-bottom">
-    <div class="brand__area">
-        <div class="container">
-            <div class="row">
-                <div class="main-brand__tittle-wrapper text-center mb-40">
-                    <h4 class="main-brand__tittle-wrapper-title">"Every Day More Brands Trust our Services"</h4>
+    <!-- Brand area start -->
+    <section class="main-brand__area section-space-bottom">
+        <div class="brand__area">
+            <div class="container">
+                <div class="row">
+                    <div class="main-brand__tittle-wrapper text-center mb-40">
+                        <h4 class="main-brand__tittle-wrapper-title">"Brands Trust our Services"</h4>
+                        <p class="main-brand__tittle-wrapper-subtitle">Our passion is to help your business to be successful</p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="swiper brand__active wow fadeIn" data-wow-delay=".3s">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".1s">
-                                    <div class="brand__thumb">
-                                        <img class="img-fluid" src="assets/imgs/brands/artistic.png" alt="artistic">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="swiper brand__active wow fadeIn" data-wow-delay=".3s">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".1s">
+                                        <div class="brand__thumb">
+                                            <img class="img-fluid" src="assets/imgs/brands/artistic.png" alt="M Digital Brands">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".2s">
-                                    <div class="brand__thumb">
-                                        <img class="img-fluid" src="assets/imgs/brands/bacardi.png" alt="bacardi">
+                                <div class="swiper-slide">
+                                    <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".2s">
+                                        <div class="brand__thumb">
+                                            <img class="img-fluid" src="assets/imgs/brands/pueblatv.png" alt="M Digital Brands">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".3s">
-                                    <div class="brand__thumb">
-                                        <img class="img-fluid" src="assets/imgs/brands/civic.png" alt="civic influencers">
+                                <div class="swiper-slide">
+                                    <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".3s">
+                                        <div class="brand__thumb">
+                                            <img class="img-fluid" src="assets/imgs/brands/tochito_nfl.png" alt="M Digital Brands">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".4s">
-                                    <div class="brand__thumb">
-                                        <img class="img-fluid" src="assets/imgs/brands/gm_agencia.png" alt="gm_agencia">
+                                <div class="swiper-slide">
+                                    <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".4s">
+                                        <div class="brand__thumb">
+                                            <img class="img-fluid" src="assets/imgs/brands/bacardi.png" alt="M Digital Brands">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".5s">
-                                    <div class="brand__thumb">
-                                        <img class="img-fluid" src="assets/imgs/brands/imprimex.png" alt="imprimex">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".6s">
-                                    <div class="brand__thumb">
-                                        <img class="img-fluid" src="assets/imgs/brands/pueblatv.png" alt="pueblatv">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".7s">
-                                    <div class="brand__thumb">
-                                        <img class="img-fluid" src="assets/imgs/brands/tochito_nfl.png" alt="tochito_nfl">
+                                <div class="swiper-slide">
+                                    <div class="brand__item text-center  wow fadeIn animated" data-wow-delay=".5s">
+                                        <div class="brand__thumb">
+                                            <img class="img-fluid" src="assets/imgs/brands/gm_agencia.png" alt="M Digital Brands">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -506,9 +509,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- Brand area end -->
+    </section>
+    <!-- Brand area end -->
     
 </main>
 
@@ -622,13 +624,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             Copyright @<script>document.write(new Date().getFullYear())</script>, all Rights Reserved by 
                             <a href="index.html" target="_blank">&nbsp;&nbsp;&nbsp;M Digital Lab</a> 
                         </p>
-                    </div>
-
-                    <div class="footer__copyright-menu">
-                        <ul>
-                           
-                        </ul>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>
@@ -636,26 +632,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </footer>
 <!-- Footer area end -->
 
+
+
 <!-- JS here -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="assets2/js/plugins/waypoints.min.js"></script>
+<script src="assets/js/plugins/waypoints.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="assets2/js/plugins/meanmenu.min.js"></script>
-<script src="assets2/js/plugins/swiper.min.js"></script>
-<script src="assets2/js/plugins/wow.js"></script>
-<script src="assets2/js/vendor/magnific-popup.min.js"></script>
-<script src="assets2/js/vendor/type.js"></script>
-<script src="assets2/js/plugins/counterup.js"></script>
-<script src="assets2/js/plugins/nice-select.min.js"></script>
-<script src="assets2/js/vendor/jquery-ui.min.js"></script>
-<script src="assets2/js/plugins/parallax-scroll.js"></script>
-<script src="assets2/js/plugins/jquery.countdown.min.js"></script>
-<script src="assets2/js/plugins/isotope-docs.min.js"></script>
-<script src="assets2/js/vendor/ajax-form.js"></script>
-<script src="assets2/js/plugins/slick.min.js"></script>
-<script src="assets2/js/main.js"></script>
+<script src="assets/js/plugins/meanmenu.min.js"></script>
+<script src="assets/js/plugins/swiper.min.js"></script>
+<script src="assets/js/plugins/wow.js"></script>
+<script src="assets/js/vendor/magnific-popup.min.js"></script>
+<script src="assets/js/vendor/type.js"></script>
+<script src="assets/js/plugins/counterup.js"></script>
+<script src="assets/js/plugins/nice-select.min.js"></script>
+<script src="assets/js/vendor/jquery-ui.min.js"></script>
+<script src="assets/js/plugins/parallax-scroll.js"></script>
+<script src="assets/js/plugins/jquery.countdown.min.js"></script>
+<script src="assets/js/plugins/isotope-docs.min.js"></script>
+<script src="assets/js/vendor/ajax-form.js"></script>
+<script src="assets/js/plugins/slick.min.js"></script>
+<script src="assets/js/main.js"></script>
 <script src="//code.tidio.co/rwfy3poia5dp4td6fcc65uusgfbmzcwm.js" async></script>
-
 </body>
 
 </html>

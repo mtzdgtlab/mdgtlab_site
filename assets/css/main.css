@@ -3224,8 +3224,8 @@ only screen and (min-width:768px) and (max-width:991px) {
   background: radial-gradient(50% 50% at 49.98% 50%,#fff 0,#dadada 8%,#a1a1a1 22%,#707070 36%,#474747 50%,#282828 63%,#121212 77%,#040404 89%,#000 100%);
   background-blend-mode: screen;
   mix-blend-mode: screen;
-  width: 639.5px;
-  height: 639.5px;
+  width: 650px;
+  height: 650px;
   border-radius: 500px;
   top: -62px;
   left: 642px
