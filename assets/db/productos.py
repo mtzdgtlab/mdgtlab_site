@@ -2,7 +2,7 @@ import pandas as pd
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 # Cargar los datos de Excel
-df = pd.read_excel("/Users/ismartinez/Sites/mdgt_finalsite/assets/db/mdgtlab_productos.xlsx")
+df = pd.read_excel("/Users/ismartinez/Sites/mdgt_finalsite/assets/db/products_mdgt.xlsx")
 
 # Imprime los nombres de las columnas para verificar
 print(df.columns)
@@ -26,12 +26,18 @@ for index, row in df.iterrows():
         # Si la columna no se encuentra, imprime un mensaje de error y salta al siguiente registro.
         print(f"Columna 'page_title' no encontrada para el indice {index}, se omite este registro.")
         continue
-
+    
+    # Verifica si los campos críticos están presentes y no son NaN
+    required_fields = ['product_name', 'meta_description', 'product_tittle', 'category', 'subcategory', 'image_path1', 'product_sectionalt', 'body_description', 'img3', 'img2']
+    if not all([pd.notna(row[field]) for field in required_fields]):
+        print(f"Faltan datos críticos en el índice {index}, se omite este registro.")
+        continue
+    
     # Asegúrate de que 'product_uses' corresponde a una columna en tu Excel.
     product_uses = row.get('product_uses', 'N/A')  # Default value in case 'product_uses' is missing
     
     # Actualiza el diccionario de datos para la plantilla
-    product_data = row.to_dict()
+    product_data = row.fillna('').to_dict()  # Reemplaza NaN con cadenas vacías
     product_data['product_uses'] = product_uses
     
     # Renderizar la plantilla con los datos del producto

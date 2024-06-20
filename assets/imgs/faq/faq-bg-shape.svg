@@ -1,9 +1,40 @@
-<svg width="834" height="598" viewBox="0 0 834 598" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M114.791 216.676C376.921 178.502 252.314 -36.1033 477.028 5.26321C701.743 46.6297 859.918 210.498 830.322 371.273C800.726 532.047 594.566 628.847 369.851 587.481C145.136 546.114 -172.5 268.013 114.791 216.676Z" fill="url(#paint0_linear_298_615)" fill-opacity="0.1"/>
-<defs>
-<linearGradient id="paint0_linear_298_615" x1="368.867" y1="587.299" x2="476.044" y2="5.08195" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FF3D00"/>
-<stop offset="1" stop-color="#FF3D00" stop-opacity="0"/>
-</linearGradient>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 442.4 375.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff61ad;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #ffed00;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+        opacity: .5;
+      }
+
+      .cls-4 {
+        fill: #009fe3;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-218.7" y1="512.3" x2="262.9" y2="512.3" gradientTransform="translate(-107 -212.4) rotate(-34.7)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0" stop-color="rgba(255, 228, 238, 0)" stop-opacity="0"/>
+      <stop offset=".1" stop-color="rgba(255, 167, 200, 0)" stop-opacity="0"/>
+      <stop offset=".2" stop-color="rgba(255, 131, 178, 0)" stop-opacity="0"/>
+      <stop offset=".4" stop-color="#ff7aac" stop-opacity=".1"/>
+      <stop offset=".7" stop-color="rgba(105, 107, 204, .6)" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#0061e3"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-3" d="M423,94.9C384.2,8.8,255.1-17,134.8,37.2c-120.3,54.3,9.4,115.2-102.5,219.6-119.6,118.9,122.8,146.5,243.1,92.2,120.3-54.3,186.4-168.1,147.6-254.2Z"/>
+  <polygon class="cls-4" points="-139.4 6.1 -165 0 -169 17.3 -160.6 19.3 -162.6 27.7 -145.3 31.8 -139.4 6.1"/>
+  <polygon class="cls-2" points="-169 17.3 -186.3 13.2 -190.3 30.5 -181.8 32.5 -183.8 40.9 -166.6 45 -162.6 27.7 -160.6 19.3 -169 17.3"/>
+  <polygon class="cls-1" points="-190.3 30.5 -207.5 26.4 -213.5 52.1 -187.8 58.2 -183.8 40.9 -181.8 32.5 -190.3 30.5"/>
 </svg>
