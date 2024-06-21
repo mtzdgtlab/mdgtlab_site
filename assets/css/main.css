@@ -1087,12 +1087,12 @@ only screen and (min-width:768px) and (max-width:991px) {
 @media (max-width:575px),
 only screen and (min-width:576px) and (max-width:767px) {
   .breadcrumb-space {
-    padding: 150px 0 80px
+    padding: 125px 0 70px
   }
 }
 @media (max-width:575px) {
   .breadcrumb-space {
-    padding: 157px 0 80px 0
+    padding: 100px 0 60px 0
   }
 }
 .breadcrumb__area {

@@ -417,47 +417,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Brand area start -->
     <section class="main-brand__area section-space-bottom">
 
-
-        {% if variants %}
-        <!--cart start-->
-        <div class="container container-small">
-            <div class="row">
-                <div class="col-12">
-                    <div class="table-content">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th class="product-remove"></th>
-                                    <th class="cart-product-name">Size</th>
-                                    <th class="product-quantity">Quantity</th>
-                                    <th class="product-price">Price</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {% for variant in variants %}
-                                <tr>
-                                    <td class="product-remove"><a href="#"></a></td>
-                                    <td class="product-thumbnail">
-                                        <div class="product-thumbnail__wrapper">
-                                            <div class="product-name">{{ variant.size }}</div>
-                                        </div>
-                                    </td>
-                                    <td class="product-price"><span class="amount amount-2">{{ variant.quantity }}</span></td>
-                                    <td class="product-subtotal"><span class="amount">{{ variant.price }}</span></td>
-                                </tr>
-                                {% endfor %}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--cart end-->
-        {% endif %}
-
-        <!-- Adding space between variants and brands -->
-    <div class="section-space"></div>
-
         <div class="brand__area">
             <div class="container">
                 <div class="row">
