@@ -6439,3 +6439,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
   font-weight: 400;
   font-style: normal;
 }
+.section-space {
+  margin-top: 15px; /* Ajusta este valor según el espacio que necesites */
+  margin-bottom: 15px; /* Ajusta este valor según el espacio que necesites */
+}
+

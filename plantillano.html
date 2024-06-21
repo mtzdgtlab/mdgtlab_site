@@ -18,8 +18,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>M Digital Lab - Announcement Cards</title>
-    <meta name="description" content="Make announcements heard with custom-printed Announcement Cards for any occasion. Full-color printing on premium substrates with numerous sizing and finishing choices, paired with optional envelopes for a complete package.">
+    <title>M Digital Lab - {{ name }}</title>
+    <meta name="description" content="{{ metad }}">
     <meta name="keywords" content="digital marketing, social media management, video production, graphic design, photography, marketing print services, brand development, creative solutions">
     <meta name="author" content="Isra Martinez">
 
@@ -73,7 +73,7 @@
 
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.mdgtlab.com/announcementcards.html">
+    <link rel="canonical" href="https://www.mdgtlab.com/{{ page_title }}.html">
 </head>
 
 <body>
@@ -123,7 +123,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="offcanvas__btn d-sm-none">
                     <div class="header__btn-wrap">
-                        <a class="rr-btn btn-hover-white" href="https://wa.me/18623105807">Order Now<span><i class="fa-regular fa-angle-right"></i></span></a>
+                        <a class="rr-btn btn-hover-white" href="https://wa.me/18623105807">Get a Quote<span><i class="fa-regular fa-angle-right"></i></span></a>
                     </div>
                 </div>
             </div>
@@ -159,7 +159,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         </li>
                                         <!-- Printing Services -->
                                         <li class="has-dropdown">
-                                            <a href="#">Print Services</a>
+                                            <a href="printservice.html">Print Services</a>
                                             <ul class="submenu">
                                                 <!-- Large Format Printing -->
                                                 <li class="has-dropdown">
@@ -264,8 +264,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- Header area end -->
 
-
-   <!-- Body main wrapper start -->
+    <!-- Body main wrapper start -->
 <main>
 
     <div class="breadcrumb__area breadcrumb-space overflow-hidden banner-home-bg ">
@@ -286,13 +285,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-12">
                     <div class="breadcrumb__content text-center">
                         <div class="breadcrumb__title-wrapper mb-15 mb-sm-10 mb-xs-5">
-                            <h1 class="breadcrumb__title color-white wow fadeIn animated" data-wow-delay=".1s">Announcement Cards</h1>
+                            <h1 class="breadcrumb__title color-white wow fadeIn animated" data-wow-delay=".1s">{{ productt }}</h1>
                         </div>
                         <div class="breadcrumb__menu wow fadeIn animated" data-wow-delay=".5s">
                             <nav>
                                 <ul>
-                                    <li><span><a href="#">Printing </a></span></li>
-                                    <li class="active"><span>Offset Printing</span></li>
+                                    <li><span><a href="#">{{ category }}</a></span></li>
+                                    <li class="active"><span>{{ subcategory }}</span></li>
                                 </ul>
                             </nav>
                         </div>
@@ -309,86 +308,84 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-xl-8">
                     <div class="service-details-content">
                         <div class="service-details-content-thumb mb-30">
-                            <img src="assets/images/products/announcementcards-1.webp" alt="Announcement Cards " class="img-fluid">
+                             <img src="{{ img1 }}" alt="{{ secalt }}" class="img-fluid">
                         </div>
                         <h4>Description</h4>
-                        
+                        {% for paragraph in description.split('\n') %}
                         <div class="paragraph">
-                            <p>Share your news with style and substance using our Announcement Cards - the bearers of good tidings and significant updates. Custom-printed to mark special occasions, announce store openings, or promote upcoming sales, these cards serve as personal touchpoints that capture the essence of your message, delivering it with clarity and class.</p>
+                            <p>{{ paragraph }}</p>
                         </div>
-                        
-                        <div class="paragraph">
-                            <p>Printed on full-color premium substrates, our announcement cards come in a variety of sizes and finishes to cater to your specific needs. Each card is crafted to embody the importance of the announcement it carries, ensuring it won&#39;t just be seen but felt. With optional blank envelopes, these cards become a complete package ready to be sent out into the world, leaving a polished and professional impression.</p>
-                        </div>
-                        
-                        <div class="paragraph">
-                            <p>Moreover, announcement cards provide a tactile engagement that enriches the message, making it more memorable. They are a curated experience, a bridge between the sender and the receiver that strengthens relationships and conveys genuine intent in a digital world.</p>
-                        </div>
-                        
+                        {% endfor %}
                     </div>
-                    <div class="header__right">
-                        <div class="header__action d-flex align-items-center">
-                            <div class="header__btn-wrap d-none d-sm-inline-flex">
-                                <a href="https://wa.me/18623105807" class="rr-btn">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- Cerrando la columna xl-8 -->
 
-               
+       
+        
 
+
+
+                <div class="header__btn-wrap d-none d-sm-inline-flex">
+                    <a href="https://wa.me/18623105807" class="rr-btn">Order Now!</a>
+                </div>
                 <div class="col-xl-4">
                     <div class="service-details-right">
                         <div class="service-details-righ-widget">
                             <h5 class="title">Search Here</h5>
+
                             <div class="search">
                                 <div class="search-bar d-flex">
-                                    <button>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                            <path d="M7.22221 13.4444C10.6586 13.4444 13.4444 10.6586 13.4444 7.22221C13.4444 3.78578 10.6586 1 7.22221 1C3.78578 1 1 3.78578 1 7.22221C1 10.6586 3.78578 13.4444 7.22221 13.4444Z" stroke="#525257" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M15.0005 15L11.6172 11.6167" stroke="#525257" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </button>
+                                    <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M7.22221 13.4444C10.6586 13.4444 13.4444 10.6586 13.4444 7.22221C13.4444 3.78578 10.6586 1 7.22221 1C3.78578 1 1 3.78578 1 7.22221C1 10.6586 3.78578 13.4444 7.22221 13.4444Z" stroke="#525257" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M15.0005 15L11.6172 11.6167" stroke="#525257" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg></button>
                                     <input type="text" id="search" placeholder="Search">
                                 </div>
                             </div>
                         </div>
                         <div class="service-details-righ-widget mt-30">
                             <h5 class="title">Other Services</h5>
+
                             <div class="search">
-                                <a href="screenprinting.html">
+                                <a href="service-details.html">
                                     <div class="search-bar main-search d-flex mb-20">
-                                        <h6>Screen Printing</h6>
-                                        <span><i class="fa-solid fa-angle-right"></i></span>
+                                        <h6>T-shirt Printing</h6>
+                                        <span>
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </span>
                                     </div>
                                 </a>
-                                <a href="embroidery.html">
+                                <a href="service-details.html">
                                     <div class="search-bar main-search d-flex mb-20">
-                                        <h6>Embroidery</h6>
-                                        <span><i class="fa-solid fa-angle-right"></i></span>
+                                        <h6>Greeting Cards</h6>
+                                        <span>
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </span>
                                     </div>
                                 </a>
-                                <a href="videomenu.html">
+                                <a href="service-details.html">
                                     <div class="search-bar main-search d-flex mb-20">
-                                        <h6>Video Menu & Retail Display</h6>
-                                        <span><i class="fa-solid fa-angle-right"></i></span>
+                                        <h6>Invitations Card</h6>
+                                        <span>
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </span>
                                     </div>
                                 </a>
-                                <a href="businesscard.html">
+                                <a href="service-details.html">
                                     <div class="search-bar main-search d-flex">
-                                        <h6>Business Cards</h6>
-                                        <span><i class="fa-solid fa-angle-right"></i></span>
+                                        <h6>Book Cover Printing</h6>
+                                        <span>
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </span>
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="bottom-img position-relative mt-30">
-                            <a href="assets/images/preview/eventtickets-3.webp" class="our-gallery__item sidebar-gallery__item popup-image wow fadeIn animated" data-wow-delay=".5s">
+                            <a href="{{ img3 }}" class="our-gallery__item sidebar-gallery__item popup-image wow fadeIn animated" data-wow-delay=".5s">
                                 <div class="middel-icon">
                                     <i class="fa-solid fa-plus"></i>
                                 </div>
                             </a>
-                            <img src="assets/imgs/prodact/eventtickets-3.webp" alt="Announcement Cards ">
+                            <img src="{{ img2 }}" alt="{{ secalt }}">
                         </div>
                     </div>
                     <div class="content-area pt-70">
@@ -402,92 +399,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </div>
                                     <div id="faq-1" class="collapse" data-bs-parent="#faq">
                                         <div class="card-body">
-                                            <p>Real Estate, Corporate, Retail, Stationery, Holidays</p>
+                                            <p>{{ uses }}</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div> <!-- Cerrando la columna xl-4 -->
-            </div> <!-- Cerrando la fila -->
-        </div> <!-- Cerrando el contenedor -->
-    </section>
-    <!-- service details area end -->
-
-
-
-
-
-
-
-
-    <!-- Brand area start -->
-    <section class="main-brand__area section-space-bottom">
-
-
-        
-        <!--cart start-->
-        <div class="container container-small">
-            <div class="row">
-                <div class="col-12">
-                    <div class="table-content">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th class="product-remove"></th>
-                                    <th class="cart-product-name">Size</th>
-                                    <th class="product-quantity">Quantity</th>
-                                    <th class="product-price">Price</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                
-                                <tr>
-                                    <td class="product-remove"><a href="#"></a></td>
-                                    <td class="product-thumbnail">
-                                        <div class="product-thumbnail__wrapper">
-                                            <div class="product-name">5&#34; x 7&#34;</div>
-                                        </div>
-                                    </td>
-                                    <td class="product-price"><span class="amount amount-2">50</span></td>
-                                    <td class="product-subtotal"><span class="amount">75.0</span></td>
-                                </tr>
-                                
-                                <tr>
-                                    <td class="product-remove"><a href="#"></a></td>
-                                    <td class="product-thumbnail">
-                                        <div class="product-thumbnail__wrapper">
-                                            <div class="product-name">5&#34; x 7&#34;</div>
-                                        </div>
-                                    </td>
-                                    <td class="product-price"><span class="amount amount-2">100</span></td>
-                                    <td class="product-subtotal"><span class="amount">90.0</span></td>
-                                </tr>
-                                
-                                <tr>
-                                    <td class="product-remove"><a href="#"></a></td>
-                                    <td class="product-thumbnail">
-                                        <div class="product-thumbnail__wrapper">
-                                            <div class="product-name">5&#34; x 7&#34;</div>
-                                        </div>
-                                    </td>
-                                    <td class="product-price"><span class="amount amount-2">250</span></td>
-                                    <td class="product-subtotal"><span class="amount">160.0</span></td>
-                                </tr>
-                                
-                            </tbody>
-                        </table>
-                    </div>
                 </div>
             </div>
         </div>
-        <!--cart end-->
-        
+    </section>
+    <!-- service details area end -->
 
-        <!-- Adding space between variants and brands -->
-    <div class="section-space"></div>
-
+    <!-- Brand area start -->
+    <section class="main-brand__area section-space-bottom">
         <div class="brand__area">
             <div class="container">
                 <div class="row">
