@@ -17,8 +17,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>M Digital Lab - Menus</title>
-    <meta name="description" content="Showcase your menu items with our durable, water-resistant Menus made from unique EndurACE material. Ideal for restaurants and events, offering a range of sizes and folds for any promotion.">
+    <title>M Digital Lab - Postcards</title>
+    <meta name="description" content="Engage with premium quality Postcards, printed on durable card stock. Ideal for attracting new business, announcing deals, and client outreach. Explore a range of sizes and finishes for standout mail communication.">
     <meta name="keywords" content="digital marketing, social media management, video production, graphic design, photography, marketing print services, brand development, creative solutions">
     <meta name="author" content="Isra Martinez">
 
@@ -70,7 +70,7 @@
     <!-- End Meta Pixel Code -->
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://mdgtlab.com/restaurantmenus">
+    <link rel="canonical" href="https://mdgtlab.com/postcards">
 </head>
 <body>
     
@@ -223,7 +223,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <li><a href="photosession.html">Photo Session</a></li>
                                                 <li><a href="shoot.html">Product Shoot</a></li>
                                                 <li><a href="videoediting.html">Video Production</a></li>
-                                                <li><a href="socialmediamanagement.html">Social Media Management</a></li>
+                                                <li><a href="socialmedia.html">Social Media Management</a></li>
                                                 <li><a href="videomenu.html">Video Menu</a></li>
                                                 <li><a href="website.html">Website</a></li>
                                             </ul>
@@ -283,7 +283,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-12">
                     <div class="breadcrumb__content text-center">
                         <div class="breadcrumb__title-wrapper mb-15 mb-sm-10 mb-xs-5">
-                            <h1 class="breadcrumb__title color-white wow fadeIn animated" data-wow-delay=".1s">Menus</h1>
+                            <h1 class="breadcrumb__title color-white wow fadeIn animated" data-wow-delay=".1s">Postcards</h1>
                         </div>
                         <div class="breadcrumb__menu wow fadeIn animated" data-wow-delay=".5s">
                             <nav>
@@ -306,24 +306,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-xl-8">
                     <div class="service-details-content">
                         <div class="service-details-content-thumb mb-30">
-                            <img src="assets/images/products/menus-1.webp" alt="Menus" class="img-fluid">
+                            <img src="assets/images/products/postcards-1.webp" alt="Postcards" class="img-fluid">
                         </div>
                         <h4>Description</h4>
                         
                         <div class="paragraph">
-                            <p>Menus are not simply lists of dishes; they are stories waiting to be told, enticing the taste buds and sparking anticipation. Our premium printed menus go beyond the ordinary, offering a feast for the senses that sets the stage for a memorable dining experience. Crafted with precision and attention to detail, our menus are tailored to suit any occasion or promotion, ensuring that they not only inform but also excite.</p>
+                            <p>Unlock the potential of your marketing campaigns with our Postcards - versatile canvases that combine visual appeal with tangible interaction. Printed on premium card stock, our postcards are not only a pleasure to behold but also built to last. Whether for direct mail campaigns, invitations, or promotional handouts, these cards are designed to stand out in a pile of mail and capture the recipient&#39;s attention.</p>
                         </div>
                         
                         <div class="paragraph">
-                            <p>At the heart of our menus is EndurACE, a material renowned for its durability and water-resistant properties. Unlike traditional paper menus that can easily succumb to spills or wear and tear, EndurACE stands strong, ready to withstand the daily hustle and bustle of restaurant life. This resilience makes our menus a long-lasting addition to any dining establishment, ensuring that they remain pristine and presentable meal after meal.</p>
+                            <p>The durability of our postcards makes them a reliable choice for delivering your message far and wide. They endure the journey from mailbox to hand without losing their form or appeal, ensuring your communication reaches its audience as intended. Whether attracting new business, promoting special offers, or keeping in touch with existing clients, postcards are an effective and efficient way to connect and stay relevant.</p>
                         </div>
                         
                         <div class="paragraph">
-                            <p>But EndurACE is more than just a sturdy material; it&#39;s a statement of quality and sophistication. With a texture akin to our premium 100lb paper stock, EndurACE exudes a sense of luxury that elevates the dining experience. Guests will appreciate the attention to detail as they peruse your offerings, knowing that they are in for a treat from the moment they lay eyes on the menu.</p>
-                        </div>
-                        
-                        <div class="paragraph">
-                            <p>For those who want to experience the exceptional quality of EndurACE firsthand, we offer sample kits upon request. This allows restaurateurs and event planners to see and feel the difference for themselves, ensuring that they make an informed choice for their menu needs. Whether you run a bustling restaurant, host elegant events, or manage a cozy café, our menus are the perfect complement to your culinary creations, setting the stage for an unforgettable dining journey.</p>
+                            <p>Customization is key, and our array of stock and finish options allows for creative expression that reflects your brand&#39;s personality. Each postcard tells a story in vivid color and striking imagery, creating a memorable interaction with your audience from the first sketch to the final print.</p>
                         </div>
                         
                     </div>
@@ -384,12 +380,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </div>
                         </div>
                         <div class="bottom-img position-relative mt-30">
-                            <a href="assets/images/preview/menus-3.webp" class="our-gallery__item sidebar-gallery__item popup-image wow fadeIn animated" data-wow-delay=".5s">
+                            <a href="assets/images/preview/embroidery-3.webp" class="our-gallery__item sidebar-gallery__item popup-image wow fadeIn animated" data-wow-delay=".5s">
                                 <div class="middel-icon">
                                     <i class="fa-solid fa-plus"></i>
                                 </div>
                             </a>
-                            <img src="assets/imgs/prodact/menus-3.webp" alt="Menus">
+                            <img src="assets/imgs/prodact/embroidery-3.webp" alt="Postcards">
                         </div>
                     </div>
                     <div class="content-area pt-70">
@@ -403,7 +399,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </div>
                                     <div id="faq-1" class="collapse" data-bs-parent="#faq">
                                         <div class="card-body">
-                                            <p>Restaurants, Wedding, Corporate, Retail, Travel/Hospitality</p>
+                                            <p>Bankers, Retail, Real Estate, Education, Non-Profits, Contractors</p>
                                         </div>
                                     </div>
                                 </div>

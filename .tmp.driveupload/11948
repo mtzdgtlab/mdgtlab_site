@@ -17,8 +17,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>M Digital Lab - Video Production</title>
-    <meta name="description" content="Tell your story with our expert video editing services. Transform raw footage into compelling narratives for marketing, social media, or personal projects. Engage your audience with beautifully edited videos.">
+    <title>M Digital Lab - Announcement Cards</title>
+    <meta name="description" content="Make announcements heard with custom-printed Announcement Cards for any occasion. Full-color printing on premium substrates with numerous sizing and finishing choices, paired with optional envelopes for a complete package.">
     <meta name="keywords" content="digital marketing, social media management, video production, graphic design, photography, marketing print services, brand development, creative solutions">
     <meta name="author" content="Isra Martinez">
 
@@ -70,7 +70,7 @@
     <!-- End Meta Pixel Code -->
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://mdgtlab.com/videoediting">
+    <link rel="canonical" href="https://mdgtlab.com/announcementcards">
 </head>
 <body>
     
@@ -223,7 +223,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <li><a href="photosession.html">Photo Session</a></li>
                                                 <li><a href="shoot.html">Product Shoot</a></li>
                                                 <li><a href="videoediting.html">Video Production</a></li>
-                                                <li><a href="socialmediamanagement.html">Social Media Management</a></li>
+                                                <li><a href="socialmedia.html">Social Media Management</a></li>
                                                 <li><a href="videomenu.html">Video Menu</a></li>
                                                 <li><a href="website.html">Website</a></li>
                                             </ul>
@@ -283,13 +283,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-12">
                     <div class="breadcrumb__content text-center">
                         <div class="breadcrumb__title-wrapper mb-15 mb-sm-10 mb-xs-5">
-                            <h1 class="breadcrumb__title color-white wow fadeIn animated" data-wow-delay=".1s">Video Production</h1>
+                            <h1 class="breadcrumb__title color-white wow fadeIn animated" data-wow-delay=".1s">Announcement Cards</h1>
                         </div>
                         <div class="breadcrumb__menu wow fadeIn animated" data-wow-delay=".5s">
                             <nav>
                                 <ul>
-                                    <li><span><a href="#">Digital Service</a></span></li>
-                                    <li class="active"><span>Online Service</span></li>
+                                    <li><span><a href="#">Printing</a></span></li>
+                                    <li class="active"><span>Offset Printing</span></li>
                                 </ul>
                             </nav>
                         </div>
@@ -306,28 +306,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-xl-8">
                     <div class="service-details-content">
                         <div class="service-details-content-thumb mb-30">
-                            <img src="assets/images/products/videoediting-1.webp" alt="Video Production" class="img-fluid">
+                            <img src="assets/images/products/announcementcards-1.webp" alt="Announcement Cards" class="img-fluid">
                         </div>
                         <h4>Description</h4>
                         
                         <div class="paragraph">
-                            <p> Video Production and Editing is the key to unlocking the full potential of your business or private event, transforming ordinary moments into extraordinary memories. Our service is a seamless blend of creativity and technical expertise, crafted to deliver stunning visuals and compelling narratives that captivate your audience and leave a lasting impression. </p>
+                            <p>Share your news with style and substance using our Announcement Cards - the bearers of good tidings and significant updates. Custom-printed to mark special occasions, announce store openings, or promote upcoming sales, these cards serve as personal touchpoints that capture the essence of your message, delivering it with clarity and class.</p>
                         </div>
                         
                         <div class="paragraph">
-                            <p> Whether you&#39;re a business looking to create captivating promotional videos or an individual planning a private event, our team of experienced videographers and editors is here to bring your vision to life. From concept development to final editing, we handle every aspect of the production process with precision and care, ensuring that your message is conveyed with clarity and impact. </p>
+                            <p>Printed on full-color premium substrates, our announcement cards come in a variety of sizes and finishes to cater to your specific needs. Each card is crafted to embody the importance of the announcement it carries, ensuring it won&#39;t just be seen but felt. With optional blank envelopes, these cards become a complete package ready to be sent out into the world, leaving a polished and professional impression.</p>
                         </div>
                         
                         <div class="paragraph">
-                            <p> For businesses, our Video Production and Editing service offers a powerful tool for building brand awareness, engaging customers, and driving sales. Whether you need a promotional video for your website, social media content to boost engagement, or training videos for your staff, we have the expertise and creativity to deliver results that exceed your expectations. </p>
-                        </div>
-                        
-                        <div class="paragraph">
-                            <p> For private events, our service provides a way to capture and preserve the magic of the moment for years to come. Whether it&#39;s a wedding, birthday party, or corporate gathering, our team will work closely with you to understand your vision and create a video that perfectly encapsulates the spirit of the occasion. </p>
-                        </div>
-                        
-                        <div class="paragraph">
-                            <p> With our Video Production and Editing service, the possibilities are endless. Let us help you tell your story, share your message, and create memories that will last a lifetime. </p>
+                            <p>Moreover, announcement cards provide a tactile engagement that enriches the message, making it more memorable. They are a curated experience, a bridge between the sender and the receiver that strengthens relationships and conveys genuine intent in a digital world.</p>
                         </div>
                         
                     </div>
@@ -388,12 +380,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </div>
                         </div>
                         <div class="bottom-img position-relative mt-30">
-                            <a href="assets/images/preview/walldecal-3.webp" class="our-gallery__item sidebar-gallery__item popup-image wow fadeIn animated" data-wow-delay=".5s">
+                            <a href="assets/images/preview/eventtickets-3.webp" class="our-gallery__item sidebar-gallery__item popup-image wow fadeIn animated" data-wow-delay=".5s">
                                 <div class="middel-icon">
                                     <i class="fa-solid fa-plus"></i>
                                 </div>
                             </a>
-                            <img src="assets/imgs/prodact/walldecal-3.webp" alt="Video Production">
+                            <img src="assets/imgs/prodact/eventtickets-3.webp" alt="Announcement Cards">
                         </div>
                     </div>
                     <div class="content-area pt-70">
@@ -407,7 +399,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </div>
                                     <div id="faq-1" class="collapse" data-bs-parent="#faq">
                                         <div class="card-body">
-                                            <p>Corporate presentations, Social media ads, Music videos, Documentary films, Wedding montages, Educational content, Event recap highlights, Personal projects, Product demonstrations, Viral marketing campaigns</p>
+                                            <p>Real Estate, Corporate, Retail, Stationery, Holidays</p>
                                         </div>
                                     </div>
                                 </div>

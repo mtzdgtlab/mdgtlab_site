@@ -17,8 +17,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>M Digital Lab - NCR Forms</title>
-    <meta name="description" content="Streamline your documentation with 2-Part NCR Forms, perfect for multicolored copies of forms and receipts. Glued for convenience and customizable with numbering for organizational efficiency.">
+    <title>M Digital Lab - Business Cards</title>
+    <meta name="description" content="Professional Business Cards to build brand awareness and maintain essential contacts. High-quality stock with optional UV coating for a distinguished look.">
     <meta name="keywords" content="digital marketing, social media management, video production, graphic design, photography, marketing print services, brand development, creative solutions">
     <meta name="author" content="Isra Martinez">
 
@@ -70,7 +70,7 @@
     <!-- End Meta Pixel Code -->
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://mdgtlab.com/ncrforms">
+    <link rel="canonical" href="https://mdgtlab.com/businesscard">
 </head>
 <body>
     
@@ -223,7 +223,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <li><a href="photosession.html">Photo Session</a></li>
                                                 <li><a href="shoot.html">Product Shoot</a></li>
                                                 <li><a href="videoediting.html">Video Production</a></li>
-                                                <li><a href="socialmediamanagement.html">Social Media Management</a></li>
+                                                <li><a href="socialmedia.html">Social Media Management</a></li>
                                                 <li><a href="videomenu.html">Video Menu</a></li>
                                                 <li><a href="website.html">Website</a></li>
                                             </ul>
@@ -283,7 +283,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-12">
                     <div class="breadcrumb__content text-center">
                         <div class="breadcrumb__title-wrapper mb-15 mb-sm-10 mb-xs-5">
-                            <h1 class="breadcrumb__title color-white wow fadeIn animated" data-wow-delay=".1s">NCR Forms</h1>
+                            <h1 class="breadcrumb__title color-white wow fadeIn animated" data-wow-delay=".1s">Business Cards</h1>
                         </div>
                         <div class="breadcrumb__menu wow fadeIn animated" data-wow-delay=".5s">
                             <nav>
@@ -306,24 +306,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-xl-8">
                     <div class="service-details-content">
                         <div class="service-details-content-thumb mb-30">
-                            <img src="assets/images/products/ncrforms-1.webp" alt="NCR Forms" class="img-fluid">
+                            <img src="assets/images/products/businesscards-1.webp" alt="Business Cards" class="img-fluid">
                         </div>
                         <h4>Description</h4>
                         
                         <div class="paragraph">
-                            <p>NCR Forms revolutionize administrative tasks, offering a seamless solution for businesses seeking efficiency and accuracy. Our 2-part NCR Forms, in particular, are indispensable for organizations that rely on multicolored copies of essential documents like order forms and invoices. Printed digitally and meticulously collated into sets of white and canary sheets, these forms boast a professional appearance with glue binding along the short edge. This attention to detail ensures a polished finish that reflects positively on your business image.</p>
+                            <p>Elevate your networking game with our Business Cards - they&#39;re not just a formality but a strategic tool in establishing and broadening your professional connections. Crafted with precision, our business cards are designed to leave an indelible impression. From the tactile feel of the stock to the visual appeal of UV coating, we offer customization options that cater to the discerning tastes of modern professionals. Our high-quality uncoated stock ensures that every card not only feels substantial and easy to write on but also stands up to the wear and tear of daily handling.</p>
                         </div>
                         
                         <div class="paragraph">
-                            <p>One of the standout features of our NCR Forms is their customizable numbering, with up to four locations available. This feature simplifies organization and tracking, facilitating accurate record-keeping processes. Whether it&#39;s for inventory management or financial transactions, our forms empower businesses to maintain meticulous records with ease.</p>
+                            <p>In today&#39;s digital age, the tactile exchange of business cards retains a sense of personal touch and professionalism that digital mediums can&#39;t match. It serves as a physical reminder of connections made, conversations had, and opportunities for future engagement. With our range of specs, sizes, and quantities, clients can tailor their cards for different markets and messages, ensuring relevance and impact across diverse industries.</p>
                         </div>
                         
                         <div class="paragraph">
-                            <p>But perhaps the greatest advantage of NCR Forms lies in their ability to generate instant duplicates, eliminating the need for time-consuming digital copies or manual photocopying. This not only saves valuable time but also minimizes the risk of errors associated with manual transcriptions. For businesses operating in fast-paced environments where every second counts, the clarity and reliability of our forms are indispensable.</p>
-                        </div>
-                        
-                        <div class="paragraph">
-                            <p>Moreover, our NCR Forms offer a wide range of customization options, allowing businesses to tailor them to their unique requirements. From branded receipts to personalized packing lists, each form serves as a tangible extension of your brand identity, reinforcing your professionalism with every transaction. Seamlessly integrated into your operational workflow, our NCR Forms provide a dependable method for information duplication and distribution, ensuring smooth business operations at every turn.</p>
+                            <p>Moreover, our optional UV coating adds a layer of sophistication and durability, enhancing the vibrancy of colors and providing a sleek, polished finish. Whether networking at a bustling conference or closing a deal in a quiet café, our business cards are the perfect amalgamation of form and function, guaranteed to make a lasting impact and uphold the finest standards in the industry.</p>
                         </div>
                         
                     </div>
@@ -384,12 +380,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </div>
                         </div>
                         <div class="bottom-img position-relative mt-30">
-                            <a href="assets/images/preview/nerforms-3.webp" class="our-gallery__item sidebar-gallery__item popup-image wow fadeIn animated" data-wow-delay=".5s">
+                            <a href="assets/images/preview/dtf-3.webp" class="our-gallery__item sidebar-gallery__item popup-image wow fadeIn animated" data-wow-delay=".5s">
                                 <div class="middel-icon">
                                     <i class="fa-solid fa-plus"></i>
                                 </div>
                             </a>
-                            <img src="assets/imgs/prodact/nerforms-3.webp" alt="NCR Forms">
+                            <img src="assets/imgs/prodact/dtf-3.webp" alt="Business Cards">
                         </div>
                     </div>
                     <div class="content-area pt-70">
@@ -403,7 +399,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </div>
                                     <div id="faq-1" class="collapse" data-bs-parent="#faq">
                                         <div class="card-body">
-                                            <p>Retail, Events, Restaurants, Travel/Hospitality, Healthcare</p>
+                                            <p>Bankers, Retail, Real Estate, Education, Non-Profits, Contractors</p>
                                         </div>
                                     </div>
                                 </div>

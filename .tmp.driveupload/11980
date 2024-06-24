@@ -17,8 +17,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>M Digital Lab - Sidewalk Signs</title>
-    <meta name="description" content="Catch attention with durable Sidewalk Signs, perfect for promoting, directing, and generating foot traffic in any weather. Portable and versatile for all your signage needs.">
+    <title>M Digital Lab - Stickers</title>
+    <meta name="description" content="Spread your message with fun and durable Stickers, printed in full color for maximum detail and accuracy. Water-resistant and perfect for a variety of uses, from branding to personalization.">
     <meta name="keywords" content="digital marketing, social media management, video production, graphic design, photography, marketing print services, brand development, creative solutions">
     <meta name="author" content="Isra Martinez">
 
@@ -70,7 +70,7 @@
     <!-- End Meta Pixel Code -->
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://mdgtlab.com/sidewalksigns">
+    <link rel="canonical" href="https://mdgtlab.com/stickers">
 </head>
 <body>
     
@@ -223,7 +223,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <li><a href="photosession.html">Photo Session</a></li>
                                                 <li><a href="shoot.html">Product Shoot</a></li>
                                                 <li><a href="videoediting.html">Video Production</a></li>
-                                                <li><a href="socialmediamanagement.html">Social Media Management</a></li>
+                                                <li><a href="socialmedia.html">Social Media Management</a></li>
                                                 <li><a href="videomenu.html">Video Menu</a></li>
                                                 <li><a href="website.html">Website</a></li>
                                             </ul>
@@ -283,13 +283,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-12">
                     <div class="breadcrumb__content text-center">
                         <div class="breadcrumb__title-wrapper mb-15 mb-sm-10 mb-xs-5">
-                            <h1 class="breadcrumb__title color-white wow fadeIn animated" data-wow-delay=".1s">Sidewalk Signs</h1>
+                            <h1 class="breadcrumb__title color-white wow fadeIn animated" data-wow-delay=".1s">Stickers</h1>
                         </div>
                         <div class="breadcrumb__menu wow fadeIn animated" data-wow-delay=".5s">
                             <nav>
                                 <ul>
                                     <li><span><a href="#">Printing</a></span></li>
-                                    <li class="active"><span>Large Format Printing</span></li>
+                                    <li class="active"><span>Digital Print</span></li>
                                 </ul>
                             </nav>
                         </div>
@@ -306,16 +306,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-xl-8">
                     <div class="service-details-content">
                         <div class="service-details-content-thumb mb-30">
-                            <img src="assets/images/products/sidewalk-1.webp" alt="Sidewalk Signs" class="img-fluid">
+                            <img src="assets/images/products/stickers-1.webp" alt="Stickers" class="img-fluid">
                         </div>
                         <h4>Description</h4>
                         
                         <div class="paragraph">
-                            <p>Sidewalk Signs are designed to captivate and communicate effectively amidst the bustling dance of urban life. Positioned strategically, these signs act as silent barkers of modern commerce, engaging with a transient audience to convert foot traffic into potential customers. Constructed from rugged materials, they withstand the elements, from scorching summer heat to the biting chill of winter, ensuring reliability as a permanent fixture on any pavement.</p>
+                            <p> Stickers epitomize the essence of expression in today&#39;s vibrant visual landscape. From embellishing urban environments to personalizing belongings and product packaging, stickers serve as canvases for individuality and style. At our studio, we elevate sticker printing to an art form, ensuring that each sticker embodies the clarity and vibrancy of your imagination. Through meticulous full-color printing processes, we breathe life into designs, capturing intricate details and precise color tones that captivate audiences across all demographics. </p>
                         </div>
                         
                         <div class="paragraph">
-                            <p>Whether used as wayfinding tools or beacons of promotions, Sidewalk Signs offer quick content updates and easy relocation to effectively target audience hotspots. Their practicality is matched by portability, featuring a design that allows for swift repositioning without cumbersome tools or excessive manpower. With dimensions crafted to stand out yet not obstruct pedestrian traffic, they provide an optimal balance of visibility and courtesy, catering to a range of needs from quaint cafés to retail giants.</p>
+                            <p> But it&#39;s not just about aesthetics; it&#39;s about resilience. Our stickers are built to withstand the elements when displayed outdoors and the rigors of daily use when placed indoors. Waterproof and resilient, they retain their brilliance on laptops, water bottles, and outdoor gear, ensuring that your message endures. With a diverse array of shapes and sizes available, there&#39;s a sticker format perfectly tailored to every concept, whether it&#39;s sleek die-cut shapes for intricate designs or classic rectangles for bold messaging. </p>
+                        </div>
+                        
+                        <div class="paragraph">
+                            <p> Stickers represent a versatile, engaging, and accessible means to extend your brand&#39;s presence or infuse personality into your surroundings. They offer an instantaneous and cost-effective method to convey a message, be it a logo, a piece of art, or a catchy slogan. Our stickers don&#39;t just adhere; they command attention, spark conversations, and forge connections. They&#39;re more than mere decals; they&#39;re catalysts for meaningful interactions and memorable experiences. </p>
                         </div>
                         
                     </div>
@@ -376,12 +380,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </div>
                         </div>
                         <div class="bottom-img position-relative mt-30">
-                            <a href="assets/images/preview/carmagnet-3.webp" class="our-gallery__item sidebar-gallery__item popup-image wow fadeIn animated" data-wow-delay=".5s">
+                            <a href="assets/images/preview/posters-3.webp" class="our-gallery__item sidebar-gallery__item popup-image wow fadeIn animated" data-wow-delay=".5s">
                                 <div class="middel-icon">
                                     <i class="fa-solid fa-plus"></i>
                                 </div>
                             </a>
-                            <img src="assets/imgs/prodact/carmagnet-3.webp" alt="Sidewalk Signs">
+                            <img src="assets/imgs/prodact/posters-3.webp" alt="Stickers">
                         </div>
                     </div>
                     <div class="content-area pt-70">
@@ -395,7 +399,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </div>
                                     <div id="faq-1" class="collapse" data-bs-parent="#faq">
                                         <div class="card-body">
-                                            <p>Trade shows, Fitness clubs, Concerts, Fundraisers, Charities, Office, New product, Travel, Hospitality, Safety, Health fair, Retail, Restaurants, Auto sales, Insurance agencies, Real estate, Healthcare</p>
+                                            <p>Brand promotion, Product labeling, Packaging decoration, Personal items customization, Car decals, Laptop and smartphone decoration, Educational rewards, Event giveaways, Street art, Scrapbooking</p>
                                         </div>
                                     </div>
                                 </div>
