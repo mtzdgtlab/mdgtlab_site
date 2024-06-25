@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 .banner-home-bg {
   background-color: #fff
 }
@@ -2862,74 +2862,7 @@ a.ui-button:active {
 .ui-widget-header .ui-priority-primary {
   font-weight: 700
 }
-.ui-priority-secondary,
-.ui-widget-content .ui-priority-secondary,
-.ui-widget-header .ui-priority-secondary {
-  opacity: .7;
-  filter: Alpha(Opacity=70);
-  font-weight: 400
-}
-.ui-state-disabled,
-.ui-widget-content .ui-state-disabled,
-.ui-widget-header .ui-state-disabled {
-  opacity: .35;
-  filter: Alpha(Opacity=35);
-  
-  background-image: none
-}
-.ui-state-disabled .ui-icon {
-  filter: Alpha(Opacity=35)
-}
-.ui-icon {
-  width: 16px;
-  height: 16px
-}
-.ui-icon,
-.ui-widget-content .ui-icon,
-.ui-widget-header .ui-icon {
-  background-image: url("images/ui-icons_444444_256x240.png")
-}
-.ui-button:focus .ui-icon,
-.ui-button:hover .ui-icon,
-.ui-state-focus .ui-icon,
-.ui-state-hover .ui-icon {
-  background-image: url("images/ui-icons_555555_256x240.png")
-}
-.ui-button:active .ui-icon,
-.ui-state-active .ui-icon {
-  background-image: url("images/ui-icons_ffffff_256x240.png")
-}
-.ui-button .ui-state-highlight.ui-icon,
-.ui-state-highlight .ui-icon {
-  background-image: url("images/ui-icons_777620_256x240.png")
-}
-.ui-button .ui-icon {
-  background-image: url("images/ui-icons_777777_256x240.png")
-}
-.ui-icon-blank {
-  background-position: 16px 16px
-}
-.ui-icon-caret-1-e {
-  background-position: -32px 0
-}
-.ui-icon-triangle-1-n {
-  background-position: 0 -16px
-}
-.ui-icon-triangle-1-e {
-  background-position: -32px -16px
-}
-.ui-icon-triangle-1-s {
-  background-position: -65px -16px
-}
-.ui-icon-closethick {
-  background-position: -96px -128px
-}
-.ui-icon-check {
-  background-position: -64px -144px
-}
-.ui-icon-gripsmall-diagonal-se {
-  background-position: -64px -224px
-}
+
 .ui-corner-all,
 .ui-corner-left,
 .ui-corner-top {
@@ -2951,11 +2884,6 @@ a.ui-button:active {
 .ui-corner-br,
 .ui-corner-right {
   border-bottom-right-radius: 3px
-}
-.ui-widget-overlay {
-  background: #aaa;
-  opacity: .3;
-  filter: Alpha(Opacity=30)
 }
 .ui-widget-shadow {
   -webkit-box-shadow: 0 0 5px #666;
@@ -3059,9 +2987,7 @@ a.ui-button:active {
 #popup-search-box .box-inner-wrap form input:focus {
   outline: 0
 }
-#popup-search-box .box-inner-wrap:hover {
-  cursor: url(../img/cross.png),auto
-}
+
 #popup-search-box .box-inner-wrap .search-close {
   position: absolute;
   top: 30px;
