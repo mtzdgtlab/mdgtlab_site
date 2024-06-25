@@ -2,7 +2,7 @@ import pandas as pd
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 # Cargar los datos de Excel
-df = pd.read_excel("/Users/ismartinez/Sites/mdgt_finalsite/products_mdgt.xlsx")
+df = pd.read_excel("/Users/ismartinez/Sites/mdgt_finalsite/products_mdgt_sinprecio.xlsx")
 
 # Configurar Jinja2 para cargar la plantilla
 env = Environment(
@@ -11,7 +11,7 @@ env = Environment(
 )
 
 # Cargar la plantilla
-template = env.get_template("plantilla.html")
+template = env.get_template("plantilla_sinprecios.html")
 
 # Iterar sobre cada fila del DataFrame
 product_data = None
